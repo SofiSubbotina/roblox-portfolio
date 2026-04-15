@@ -1,8 +1,5 @@
 # roblox-portfolio
 Roblox Luau scripts: data saving system and moving platforms mechanics.
-# Roblox Portfolio
-
-A collection of Luau scripts developed for Roblox games.
 
 ## Scripts
 
