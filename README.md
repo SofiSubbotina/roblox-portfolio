@@ -12,3 +12,13 @@ Includes protection against frequent saves.
 Dynamic platform system with sine-wave animation.
 Platforms react to player contact — delay, fall, and smoothly return to start position.
 Uses Lerp for smooth movement and Heartbeat for per-frame updates.
+
+### ChestScript.lua
+Server-side chest interaction system.
+Uses ProximityPrompt, debounce via usedPlayers table, 
+and RemoteEvent to notify client.
+
+### NoteSystem.lua  
+Client-side note UI system.
+Handles OnClientEvent from server, shows/hides GUI,
+and fires server to grant experience on close.
